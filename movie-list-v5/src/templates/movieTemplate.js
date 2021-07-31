@@ -1,11 +1,12 @@
+import { html } from './node_modules/lit-html/lit-html.js';
+
 export default (movie) => html `
-<li class="card hidden" id="movie-card-template" style="width: 18rem;">
-<img src="" class="card-img-top" alt="">
-<div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-        card's content.</p>
-    <a href="#" class="btn btn-primary">Show Details</a>
-</div>
-</li>
+    <li class="card" style="width: 18rem;">
+        <img src="${movie.imgSrc}" class="card-img-top" alt="${movie.title}">
+        <div class="card-body">
+            <h5 class="card-title">${movie.title}</h5>
+            <p class="card-text">${movie.description}</p>
+            <a href="#" class="btn btn-primary">Show Details</a>
+        </div>
+    </li>
 `;
