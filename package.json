@@ -1,5 +1,26 @@
 {
-  "dependencies": {
-    "lit-html": "^1.4.1"
-  }
+    "dependencies": {
+        "http-server": "^0.12.3",
+        "lit-html": "^1.4.1"
+    },
+    "name": "client-side-rendering-exercises",
+    "description": "Client Side Rendering Exercises",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "http-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/charlestanev/Client-Side-Rendering-Exercises.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/charlestanev/Client-Side-Rendering-Exercises/issues"
+    },
+    "homepage": "https://github.com/charlestanev/Client-Side-Rendering-Exercises#readme"
 }

@@ -1,0 +1,6 @@
+2.	HTTP Status Cats
+We all love cats. They are also a fun way to learn all the HTTP status codes.
+Your task is to create a template to represent an HTTP cat card. After you have created the template, render all the cats into the section with id "allCats". Note that there should be a nested <ul> inside the section.
+An HTTP cat has an id, statusCode, statusMessage and imageLocation. The cats are seeded using the function from the JS file named "catSeeder.js" – import this file as a module.
+Each card block has a button that reveals its status code. You should toggle the button and change its text from "Show status code" to "Hide status code".
+See the file example.html for an example of how the rendered HTML should look like.

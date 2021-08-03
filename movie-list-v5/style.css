@@ -1,0 +1,41 @@
+body {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+h5 {
+    margin-bottom: 1rem !important;
+}
+
+.movie-list {
+    display: flex;
+    list-style: none;
+}
+
+.movie-item {
+    margin: 5px;
+    background-color: #f0808033;
+    padding-top: 17px;
+    border-radius: .25rem;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 0 15px;
+}
+
+p {
+    /* text-overflow: ellipsis; */
+    height: 136px;
+    overflow: hidden;
+    background-color: #f0808026;
+    border-radius: .25rem;
+    padding: 10px 15px;
+    border: 1px solid #f0808026;
+}

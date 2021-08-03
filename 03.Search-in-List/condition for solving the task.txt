@@ -1,0 +1,4 @@
+3.	Search in List
+An HTML page holds a list of towns, a search box and a [Search] button. Create a template for a list, containing all towns, that can be easily updated when the user performs a search. The list should be rendered inside the <div> element with id "towns". Load the values from the file towns.js, which you can import as a module.
+Implement the search function to apply class "active" to the items from the list which include the text from the search box. Also print the number of items the current search matches in the format "<matches> matches found". The search should be case-insensitive.
+See the file example.html for an example of how the rendered HTML should look like.
